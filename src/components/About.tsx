@@ -1,3 +1,5 @@
+import fotoPerfil from '/fotoPerfil.jpeg';
+
 export const About = () => {
     return (  
         <section className="section relative">
@@ -41,7 +43,7 @@ export const About = () => {
                        </div>
                     </div>
                     <div className="absolute -left-2 -top-4 h-24 w-20 rounded-lg bg-gray-600 bg-cover bg-center md:-left-12 md:-top-12 md:h-72 md:w-56 ">
-                        <img src="./public/fotoPerfil.jpeg" alt="foto portfolio" className="w-full h-full object-cover rounded-lg"/>
+                        <img src={fotoPerfil} alt="foto portfolio" className="w-full h-full object-cover rounded-lg"/>
                     </div>
                 </div>
             </article>
