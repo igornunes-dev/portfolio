@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .button {
+        @apply cursor-pointer text-white rounded-md bg-white px-4 py-2 text-sm font-semibold transition font-headling;
+    }
+
+    .section {
+        @apply container mx-auto my-4 max-w-5xl p-4;
+    }
+}
